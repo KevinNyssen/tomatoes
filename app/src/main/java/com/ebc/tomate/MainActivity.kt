@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
             Handler.postDelayed(this, 1000)
         }
     }
-
+// fake version
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         Thread.sleep(3000)
